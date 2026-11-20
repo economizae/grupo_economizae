@@ -60,8 +60,8 @@ window.ECONOMIZAE_CONFIG = {
       cupom: "CUPOM EXCLUSIVO"
     },
     {
-      loja: "Amazon",
-      chaveLoja: "amazon",
+      loja: "AliExpress",
+      chaveLoja: "aliexpress",
       categoria: "Utilidades",
       icone: "☕",
       titulo: "Garrafa Térmica Inox Parede Dupla 1L — Mantém Gelado 24h",

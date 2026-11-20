@@ -205,12 +205,12 @@
         },
         {
           badge: "-56% OFF",
-          store: "Amazon Brasil",
+          store: "Shopee Oficial",
           product: "☕ Garrafa Térmica Inox Parede Dupla 1 Litro",
           oldPrice: "R$ 159,90",
           newPrice: "R$ 69,90",
           coupon: "⚡ Oferta Relâmpago • Estoque Limitado",
-          link: "amzn.to/economia-de-verdade",
+          link: "s.shopee.com.br/economia-de-verdade",
           time: "16:19"
         }
       ]
@@ -284,8 +284,7 @@
     const corDot = {
       shopee: "store-dot--shopee",
       mercadolivre: "store-dot--ml",
-      aliexpress: "store-dot--ali",
-      amazon: "store-dot--amazon"
+      aliexpress: "store-dot--ali"
     };
 
     function renderizar(filtro) {
@@ -425,7 +424,7 @@
     btn.addEventListener("click", async () => {
       const shareData = {
         title: "Economizaê — Achadinhos e Ofertas",
-        text: "Entra nesse grupo grátis de ofertas e cupons da Shopee, Mercado Livre, AliExpress e Amazon!",
+        text: "Entra nesse grupo grátis de ofertas e cupons da Shopee, Mercado Livre e AliExpress!",
         url: window.location.href
       };
       if (navigator.share) {
@@ -466,7 +465,7 @@
       termos: {
         titulo: "Termos de Uso e Aviso de Afiliado",
         html: `
-          <p>O <strong>Economizaê</strong> atua como um canal independente de curadoria e divulgação de promoções, descontos e cupons encontrados nas principais lojas online (como Shopee, Mercado Livre, AliExpress e Amazon).</p>
+          <p>O <strong>Economizaê</strong> atua como um canal independente de curadoria e divulgação de promoções, descontos e cupons encontrados nas principais lojas online (como Shopee, Mercado Livre e AliExpress).</p>
           <p><strong>Participação em programas de afiliados:</strong> alguns links compartilhados nos grupos podem gerar uma pequena comissão para manter o projeto 100% gratuito, sem nenhum acréscimo no valor pago por você.</p>
           <p>Todas as compras, pagamentos, entregas e garantias são realizados exclusivamente dentro dos sites ou aplicativos oficiais de cada loja. Preços, estoques e cupons são dinâmicos e podem sofrer alteração a qualquer momento pela loja anunciante.</p>
         `
