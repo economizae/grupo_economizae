@@ -48,20 +48,20 @@ window.ECONOMIZAE_CONFIG = {
       cupom: "ENVIO FULL HOJE"
     },
     {
-      loja: "AliExpress",
-      chaveLoja: "aliexpress",
-      categoria: "Smart & Gadgets",
-      icone: "⌚",
-      titulo: "Smartwatch Tela AMOLED GPS, Chamadas e Monitor de Saúde",
-      precoAntigo: "R$ 299,00",
-      precoAtual: "R$ 128,50",
-      desconto: "-57% OFF",
-      economia: "Economia de R$ 170",
-      cupom: "CUPOM EXCLUSIVO"
+      loja: "Amazon",
+      chaveLoja: "amazon",
+      categoria: "Smart & Casa",
+      icone: "🔊",
+      titulo: "Echo Pop Smart Speaker Compacto com Alexa e Som Envolvente",
+      precoAntigo: "R$ 349,00",
+      precoAtual: "R$ 189,00",
+      desconto: "-46% OFF",
+      economia: "Economia de R$ 160",
+      cupom: "ENTREGA PRIME"
     },
     {
-      loja: "AliExpress",
-      chaveLoja: "aliexpress",
+      loja: "Amazon",
+      chaveLoja: "amazon",
       categoria: "Utilidades",
       icone: "☕",
       titulo: "Garrafa Térmica Inox Parede Dupla 1L — Mantém Gelado 24h",

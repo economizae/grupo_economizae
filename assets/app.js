@@ -194,13 +194,13 @@
       footer: "✈️ Histórico completo de ofertas e alertas instantâneos 24h",
       msgs: [
         {
-          badge: "-57% OFF",
-          store: "AliExpress",
-          product: "⌚ Smartwatch AMOLED GPS + Chamadas Bluetooth",
-          oldPrice: "R$ 299,00",
-          newPrice: "R$ 128,50",
-          coupon: "🎟️ Cupom Exclusivo Ativo Agora",
-          link: "s.click.aliexpress.com/e/oferta-top",
+          badge: "-46% OFF",
+          store: "Amazon Brasil",
+          product: "🔊 Echo Pop Smart Speaker Compacto com Alexa",
+          oldPrice: "R$ 349,00",
+          newPrice: "R$ 189,00",
+          coupon: "⚡ Entrega Prime • Oferta do Dia",
+          link: "amzn.to/achadinho-amazon",
           time: "16:04"
         },
         {
@@ -284,7 +284,7 @@
     const corDot = {
       shopee: "store-dot--shopee",
       mercadolivre: "store-dot--ml",
-      aliexpress: "store-dot--ali"
+      amazon: "store-dot--amazon"
     };
 
     function renderizar(filtro) {
@@ -424,7 +424,7 @@
     btn.addEventListener("click", async () => {
       const shareData = {
         title: "Economizaê — Achadinhos e Ofertas",
-        text: "Entra nesse grupo grátis de ofertas e cupons da Shopee, Mercado Livre e AliExpress!",
+        text: "Entra nesse grupo grátis de ofertas e cupons da Shopee, Mercado Livre e Amazon!",
         url: window.location.href
       };
       if (navigator.share) {
@@ -465,7 +465,7 @@
       termos: {
         titulo: "Termos de Uso e Aviso de Afiliado",
         html: `
-          <p>O <strong>Economizaê</strong> atua como um canal independente de curadoria e divulgação de promoções, descontos e cupons encontrados nas principais lojas online (como Shopee, Mercado Livre e AliExpress).</p>
+          <p>O <strong>Economizaê</strong> atua como um canal independente de curadoria e divulgação de promoções, descontos e cupons encontrados nas principais lojas online (como Shopee, Mercado Livre e Amazon).</p>
           <p><strong>Participação em programas de afiliados:</strong> alguns links compartilhados nos grupos podem gerar uma pequena comissão para manter o projeto 100% gratuito, sem nenhum acréscimo no valor pago por você.</p>
           <p>Todas as compras, pagamentos, entregas e garantias são realizados exclusivamente dentro dos sites ou aplicativos oficiais de cada loja. Preços, estoques e cupons são dinâmicos e podem sofrer alteração a qualquer momento pela loja anunciante.</p>
         `
