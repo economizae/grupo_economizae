@@ -179,13 +179,14 @@ button {
 
 .hero__logo-wrap {
   position: relative;
-  width: 112px;
-  height: 112px;
+  width: 164px;
+  height: 164px;
   border-radius: 50%;
-  padding: 4px;
-  background: radial-gradient(circle, rgba(255, 183, 3, 0.45) 0%, rgba(255, 183, 3, 0.08) 70%);
-  box-shadow: 0 0 42px rgba(255, 183, 3, 0.32), 0 12px 28px rgba(0, 0, 0, 0.4);
+  padding: 5px;
+  background: radial-gradient(circle, rgba(255, 183, 3, 0.5) 0%, rgba(255, 183, 3, 0.1) 70%);
+  box-shadow: 0 0 54px rgba(255, 183, 3, 0.38), 0 16px 34px rgba(0, 0, 0, 0.45);
   animation: floatLogo 4.8s ease-in-out infinite;
+  flex-shrink: 0;
 }
 
 @keyframes floatLogo {
@@ -1196,11 +1197,11 @@ button {
 }
 
 .final-cta__logo {
-  width: 84px;
-  height: 84px;
+  width: 152px;
+  height: 152px;
   border-radius: 50%;
-  margin-bottom: 16px;
-  box-shadow: 0 0 30px rgba(255, 183, 3, 0.35);
+  margin-bottom: 20px;
+  box-shadow: 0 0 46px rgba(255, 183, 3, 0.42), 0 12px 28px rgba(0, 0, 0, 0.35);
 }
 
 .final-cta__title {
@@ -1255,8 +1256,8 @@ button {
 }
 
 .footer__brand img {
-  width: 34px;
-  height: 34px;
+  width: 46px;
+  height: 46px;
   border-radius: 50%;
 }
 
@@ -1457,8 +1458,8 @@ button {
     gap: 16px;
   }
   .hero__logo-wrap {
-    width: 92px;
-    height: 92px;
+    width: 156px;
+    height: 156px;
   }
   .hero__trust {
     justify-content: flex-start;
